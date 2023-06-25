@@ -17,3 +17,9 @@ For Docker Compose (files from sudheer1)
 use this command to run
 
 sudo docker compose up
+
+
+
+browse the webpage with by running any of the one method
+
+http//:13.48.249.59 
