@@ -22,4 +22,4 @@ sudo docker compose up
 
 browse the webpage with by running any of the one method
 
-http//:13.48.249.59 
+http//:13.48.249.59   (EC2 instance ip)
