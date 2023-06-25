@@ -18,11 +18,6 @@ except Exception as e:
 
 app = Flask(__name__)
 @app.route("/")
-def hello():
-    html = "<h3>Hello {name}!</h3> <b>Hostname:</b> {hostname}<br/>"
-    return html.format(name=os.getenv("NAME", ", this is web1"), hostname=socket.gethostname())
-
-@app.route('/workorders')
 def get_workorders():
     WOCaseId_data = []
     WorkOrders_data = []
